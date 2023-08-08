@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Password Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="main_body">
+        <div id="black_box">
+            <div class="output" id="top_body">
+                <h3>Generate a secure password</h3>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <input type="text" name="generated_password" id="generated_password">
+            </div>
+            <hr class="horizontal-line">
+            <h3>Customize your password</h3>
+            <div class="password_customization" id="customize">
+                <div class="check-boxes">
+                    <input type="checkbox" name="upper_case" id="upper_case">
+                    <label for="upper_case">Uppercase</label><br>
+                    <input type="checkbox" name="lower_case" id="lower_case">
+                    <label for="lower_case">Lowercase</label><br>
+                    <input type="checkbox" name="Numeric" id="numeric">
+                    <label for="numeric">Numeric</label><br>
+                    <input type="checkbox" name="Symbols" id="Symbols">
+                    <label for="Symbols">Symbols</label>
+                </div>
+                <div class="sliders">
+                    <label for="slider-index">Password Length</label>
+                    <input type="text" name="slider-index" id="slider-index" disabled>
+                    <div class="slider-container">
+                        <input type="range" class="slider" min="0" max="100" value="50">
+                    </div>
+                
+                </div>
+            </div>
+            <footer>
+                <span>Made with <span style="color: red;">&hearts;</span> By <span style="color: #05e440;">Binod Subedi</span></span>
+            </footer>
+            <button id="generate">
+                Generate
+            </button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
