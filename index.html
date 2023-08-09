@@ -28,11 +28,11 @@
                 <div class="check-boxes">
                     <input type="checkbox" name="upper_case" id="upper_case" checked>
                     <label for="upper_case">Uppercase</label><br>
-                    <input type="checkbox" name="lower_case" id="lower_case">
+                    <input type="checkbox" name="lower_case" id="lower_case" checked>
                     <label for="lower_case">Lowercase</label><br>
-                    <input type="checkbox" name="Numeric" id="numeric" >
+                    <input type="checkbox" name="Numeric" id="numeric" checked>
                     <label for="numeric">Numeric</label><br>
-                    <input type="checkbox" name="Symbols" id="Symbols">
+                    <input type="checkbox" name="Symbols" id="Symbols" checked>
                     <label for="Symbols">Symbols</label>
                 </div>
                 <div class="sliders">
@@ -41,15 +41,19 @@
                     <div class="slider-container">
                         <input type="range" class="slider" id="mySlider" min="0" max="20" value="10">
                     </div>
-                
+
                 </div>
             </div>
             <footer>
-                <span>Made with <span style="color: red;">&hearts;</span> By <span style="color: #05e440;">Binod Subedi</span></span>
+                <span>Made with <span style="color: red;">&hearts;</span> By <span style="color: #05e440;">Binod
+                        Subedi</span></span>
             </footer>
-            <button id="generate">
-                Generate
-            </button>
+            <div class="buttons">
+                <button id="generate" class="btn-primary">
+                    Generate
+                </button>
+                <button class="btn-primary" id="copy-btn">Copy</button>
+            </div>
         </div>
     </section>
     <script src="script.js"></script>

@@ -158,7 +158,7 @@ footer{
     background: #06f545;
     cursor: pointer;
 }
-#generate{
+.btn-primary{
     height: 39px;
     width: 100px;
     background-color: #05e440;
@@ -170,11 +170,11 @@ footer{
     outline: none;
     border-radius: 3px;
 }
-#generate:hover{
+.btn-primary:hover{
     color: white;
     background-color: #e84a4a;
     transition: 0.3s;
 }
-#generate:active{
+.btn-primary:active{
     scale: 1.1;
 }
