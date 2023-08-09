@@ -70,9 +70,14 @@ h3{
     margin:20px 0;
 }
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.align_footer{
     position: absolute;
-    bottom: 20px;
-    left: 35%;
+    top: 20px;
 }
 .check-boxes input{
     height: 15px;
@@ -177,4 +182,39 @@ footer{
 }
 .btn-primary:active{
     scale: 1.1;
+}
+@media (max-width:875px){
+    #black_box{
+        width: 55%;
+    }
+}
+@media (max-width:700px){
+    #black_box{
+        width: 60%;
+    }
+}
+@media (max-width:580px){
+    #black_box{
+        width: 70%;
+    }
+}
+@media (max-width:500px){
+    #black_box{
+        width: 70%;
+        padding: 13%;
+    }
+}
+@media (max-width:400px){
+    #black_box {
+        width: 90%;
+        padding: 10%;
+        height: 34vh;
+    }
+}
+@media (max-width:375px){
+    #black_box {
+        width: 90%;
+        padding: 5%;
+        height: 76vh;
+    }
 }
