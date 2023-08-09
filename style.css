@@ -63,6 +63,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 35%;
+    position: relative;
 }
 h3{
     font-size: 1.3rem;

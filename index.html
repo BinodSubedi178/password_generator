@@ -20,26 +20,26 @@
                     <input type="checkbox">
                     <span class="slider round"></span>
                 </label>
-                <input type="text" name="generated_password" id="generated_password">
+                <input type="text" name="generated_password" id="generated_password" readonly>
             </div>
             <hr class="horizontal-line">
             <h3>Customize your password</h3>
             <div class="password_customization" id="customize">
                 <div class="check-boxes">
-                    <input type="checkbox" name="upper_case" id="upper_case">
+                    <input type="checkbox" name="upper_case" id="upper_case" checked>
                     <label for="upper_case">Uppercase</label><br>
                     <input type="checkbox" name="lower_case" id="lower_case">
                     <label for="lower_case">Lowercase</label><br>
-                    <input type="checkbox" name="Numeric" id="numeric">
+                    <input type="checkbox" name="Numeric" id="numeric" >
                     <label for="numeric">Numeric</label><br>
                     <input type="checkbox" name="Symbols" id="Symbols">
                     <label for="Symbols">Symbols</label>
                 </div>
                 <div class="sliders">
                     <label for="slider-index">Password Length</label>
-                    <input type="text" name="slider-index" id="slider-index" disabled>
+                    <input type="text" name="slider-index" id="slider-index" value="10" readonly>
                     <div class="slider-container">
-                        <input type="range" class="slider" min="0" max="100" value="50">
+                        <input type="range" class="slider" id="mySlider" min="0" max="20" value="10">
                     </div>
                 
                 </div>
